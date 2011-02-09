@@ -238,8 +238,8 @@
 			
 			this.frame.document.designMode = "on";
 			this.frame.document.open();
-            this.frame.document.write(this.getFrameHtml());
-            this.frame.document.close();
+			this.frame.document.write(this.getFrameHtml());
+			this.frame.document.close();
 			
 			//set up the buttons
 			this.$wyg.find('td > img').each(function(ind, el) {
